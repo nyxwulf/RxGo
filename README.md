@@ -39,6 +39,8 @@ sub := observable.Subscribe(handlers.NextFunc(nextHandler))
 
 **NOTE**: Observables are not active in themselves. They need to be subscribed to make something happen. Simply having an Observable lying around doesn't make anything happen, like sitting and watching time flies.
 
+## forked from github.com/reactivex/rxgo
+
 ## Install
 
 ```bash
@@ -53,9 +55,9 @@ Certain types, such as `observer.Observer` and `observable.Observable` are organ
 ```go
 
 import (
-	"github.com/reactivex/rxgo"
-	"github.com/reactivex/rxgo/observer"
-	"github.com/reactivex/rxgo/observable"
+	"github.com/nyxwulf/rxgo"
+	"github.com/nyxwulf/rxgo/observer"
+	"github.com/nyxwulf/rxgo/observable"
 	//...
 )
 
@@ -109,8 +111,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/reactivex/rxgo"
-	"github.com/reactivex/rxgo/handlers"
+	"github.com/nyxwulf/rxgo"
+	"github.com/nyxwulf/rxgo/handlers"
 )
 
 func main() {
