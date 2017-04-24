@@ -43,7 +43,7 @@ sub := observable.Subscribe(handlers.NextFunc(nextHandler))
 
 ```bash
 
-go get -u github.com/reactivex/rxgo
+go get -u github.com/nyxwulf/rxgo
 
 ```
 
